@@ -12,6 +12,6 @@ mermaid: true
 
 Hi this testing for XSS
 
-```html
-<img src=x onerror=confirm(document.domain)>
+```
+"><img src=x onerror=confirm(document.domain)>
 ```
