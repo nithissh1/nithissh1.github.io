@@ -37,7 +37,7 @@ So, everyone's spider sense has been activated, haha, and you've figured out wha
 
 * Now, whenever the text is reflected in the response page, we will always consider testing for XSS. So I came up with the idea of changing my Instagram username to an XSS payload and re-linked the instagram.
 
-> To clarify, my current Instagram handle is nithissh. So, I changed the username from **nithissh** to **<img src=x onerror=confirm(document.domain)>** to see what happens.
+> To clarify, my current Instagram handle is nithissh. So, I changed the username from **nithissh** to **<img src=x onerror=confirm(document.location)>** to see what happens.
 
 * After changing the username of my Instagram account to an XSS payload and linking the account to my current application, the application executed the code and the XSS was triggered.
 
