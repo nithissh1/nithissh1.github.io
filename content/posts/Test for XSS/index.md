@@ -12,6 +12,4 @@ mermaid: true
 
 Hi this testing for XSS
 
-```
-"><img src=x onerror=confirm(document.domain)>
-```
+I changed my name from **nithissh** to **"><img src=x onerror=confirm(document.domain)>**
